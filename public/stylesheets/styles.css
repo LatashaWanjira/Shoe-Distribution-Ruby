@@ -1,0 +1,66 @@
+.index {
+	background-color: black;
+}
+
+.container {
+	padding-top: 50px;
+}
+
+/*navbar stlyling*/
+.navbar-default {
+	background-color: #46351D;
+	border-radius: 0;
+	border: 0;
+	padding: 5px;
+	font-size: 20px;
+}
+
+.navbar-brand {
+	font-size: 35px;
+}
+
+.navbar-default .navbar-brand {
+    color: #926756;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #BFD2BF;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #white;
+}
+
+/*carousel styling*/
+.carousel-images {
+	min-height: 550px;
+	max-height: 550px;
+}
+
+form{
+	text-align: center;
+}
+input {
+	border-radius: 10px;
+	width: 400px;
+	height: 50px;
+}
+
+button {
+	border-radius: 5px;
+	background-color: #70798C;
+	border: 1px solid #70798C;
+	height: 40px;
+	width: 70px;
+	font-size: 20px; 
+	color: white;
+}
